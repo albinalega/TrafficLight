@@ -29,6 +29,7 @@ struct ContentView: View {
                 Spacer()
                 Button(action: startButtonDidTapped) {
                     Text(buttonTitle)
+                        .frame(width: 150, height: 55)
                         .font(.largeTitle)
                         .fontWeight(.bold)
                         .background(Color.blue)
